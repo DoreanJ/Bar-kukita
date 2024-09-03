@@ -478,7 +478,7 @@ html, body{ height: 100%; }
     left: 50%;
     right: 50%;
     bottom: 0;
-    background: red;
+    background: rgb(18, 18, 18);
     height: 2px;
     -webkit-transition-property: left, right;
     transition-property: left, right;
@@ -959,6 +959,20 @@ color:#ffffff;
     border: 0;
     outline: none;
     box-shadow: 0 2px 2px rgb(255, 204, 164);
+}
+
+.cancel-btn {
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.para-botones{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
 }
 
 .pruban{
@@ -1724,7 +1738,7 @@ color:#ffffff;
 
 .reserve-book-btn button  {
     color: #fff;
-    min-width: 219px;
+    width: 150px;
     padding: 5px 5px;
     display: inline-block;
     text-align: center;
