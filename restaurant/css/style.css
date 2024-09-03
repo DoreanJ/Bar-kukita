@@ -510,7 +510,7 @@ html, body{ height: 100%; }
   position: absolute;
   top: 10px;
   left: 50%;
-  width: calc(4px * 2);
+  width: calc(4px * 1);
   height: calc(4px * 2);
   background: none;
   border: 2px solid white;
@@ -895,7 +895,8 @@ html, body{ height: 100%; }
     -ms-transform: translate(0, -50%);
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
-    color: #ffffff;
+    
+    color: #0f0f10;
     background-color: #e26d4d;
     font-size: 15px;
     /*font-family: 'Roboto', sans-serif;*/
@@ -906,8 +907,10 @@ html, body{ height: 100%; }
     
 }
 
+
 .offer-item .offer-price:hover {
-color:#0f0f10;
+
+color:#ffffff;
 
 }
 
