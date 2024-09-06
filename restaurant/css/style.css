@@ -1075,6 +1075,7 @@ color:#ffffff;
     font-weight: 400;
     letter-spacing: .5px;
     font-weight: bold;
+    text-align: start;
 }
 
 .offer-item div h2 {
@@ -1083,6 +1084,7 @@ color:#ffffff;
     font-family: 'Roboto';
     font-weight: 400;
     letter-spacing: .5px;
+    text-align: start;
 }
 
 .offer-item div p {
